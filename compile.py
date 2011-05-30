@@ -7,20 +7,26 @@
 import datetime
 import urllib2
 import re
+import os
 
 
 
-RELEASE_FILE = './releases/blackbeard%s.html' % datetime.datetime.now().strftime('_ver%Y-%m-%d')
+VERSION = datetime.datetime.now().strftime('ver%Y-%m-%d')
+DIR = os.path.dirname(os.path.realpath(__file__))
+SRC_DIR = DIR + '/src'
+RELEASE_FILE = DIR + '/releases/blackbeard_%s.html' % VERSION
 
-HTML_FILE = './src/blackbeard.html'
 
-CSS_FILES = ('https://github.com/Littlemaple/css/raw/master/base.css',
-             './src/style.css')
 
-JAVASCRIPT_FILES = ('http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js',
-                    './src/app.js')
+HTML_FILE = SRC_DIR + '/blackbeard.html'
 
 LOGO_FILE = 'https://github.com/Littlemaple/blackbeard/raw/master/static/logo.jpg'
+
+CSS_FILES = ('https://github.com/Littlemaple/css/raw/master/base.css',
+             SRC_DIR + '/style.css')
+             
+JAVASCRIPT_FILES = ('http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js',
+                    SRC_DIR + '/app.js')
 
 
 
@@ -43,7 +49,7 @@ def compress_css(css_code):
     return css_code.strip()
 
 template = get_file_contents(HTML_FILE)
-data = {'logo': LOGO_FILE}
+data = {'logo': LOGO_FILE, 'version': VERSION}
 
 css = ''
 for f in CSS_FILES:

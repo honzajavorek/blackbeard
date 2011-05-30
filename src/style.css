@@ -1,0 +1,57 @@
+/**
+ * Cap'n Blackbeard's sail.
+ */
+
+h1 {
+	text-align: center;
+	font-size: 250%;
+	margin-bottom: 1.5em;
+}
+
+h1 img {
+	display: block;
+	margin: 0 auto; margin-bottom: 0.5em;
+	font-weight: bold;
+}
+
+#document {
+	width: 750px;
+	font-size: 100%;
+}
+
+input, button {
+	padding: 0.3em;
+}
+
+a {
+	color: #000;
+}
+
+a:hover, a:focus {
+	text-decoration: none;	
+}
+
+#search {
+	text-align: center;
+	margin-bottom: 2em;
+}
+
+section {
+	padding: 2em 2em 1em 2em;	
+}
+
+section h2 {
+	border-bottom: #EEE 1px solid;
+}
+
+footer {
+	font-size: 120%;
+	vertical-align: middle;
+	text-align: center;
+	margin-top: 2em;
+}
+
+footer a {
+	font-size: 70%;
+	vertical-align: middle;
+}
