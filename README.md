@@ -7,6 +7,6 @@ na [The Pirate Bay](http://www.thepiratebay.org), nabídne odkazy na hledání n
 Jak to funguje? Blackbeard je jednoduchá HTML stránka, která pracuje naprosto samostatně odkudkoliv, kde je internet. Nemusíš ji vystavovat nikam na internetový server, stačí když si ji dáš
 někam na disk a spustíš v prohlížeči. Samozřejmě si ji někam na server dát můžeš, ale dej si potom pozor na žaloby z OSA a podobných organizací.
 
-- [Stažení v ZIPu](https://github.com/Littlemaple/blackbeard/archives/master)
+- [Stažení v ZIPu](https://github.com/Littlemaple/blackbeard/archives/master) (download "PACKAGES", ne "source")
 - [Hlášení chyb a podnětů](https://github.com/Littlemaple/blackbeard/issues)
 
