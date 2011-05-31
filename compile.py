@@ -26,6 +26,7 @@ CSS_FILES = ('https://github.com/Littlemaple/css/raw/master/base.css',
              SRC_DIR + '/style.css')
              
 JAVASCRIPT_FILES = ('http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js',
+                    'https://github.com/jamespadolsey/jQuery-Plugins/raw/master/cross-domain-ajax/jquery.xdomainajax.js',
                     SRC_DIR + '/app.js')
 
 

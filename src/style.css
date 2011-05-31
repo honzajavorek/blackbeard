@@ -28,7 +28,16 @@ a {
 }
 
 a:hover, a:focus {
-	text-decoration: none;	
+	text-decoration: none;
+}
+
+ul, ul li {
+	list-style-type: none;
+	margin: 0; padding: 0;	
+}
+
+ul {
+	margin-bottom: 2em;	
 }
 
 #search {
@@ -37,11 +46,53 @@ a:hover, a:focus {
 }
 
 section {
-	padding: 2em 2em 1em 2em;	
+	padding: 0 2em 1em 2em;
+	display: none;
 }
 
-section h2 {
-	border-bottom: #EEE 1px solid;
+section ul {
+	padding-top: 1em;	
+}
+
+h2 {
+	border-bottom: #CCCCCC 1px solid;
+}
+
+.film h3 {
+	font-size: 130%;
+}
+
+.film {
+	margin-bottom: 1em; padding: 0 5em 0 1em;
+	border-left: #FFF 3px solid;
+	position: relative;
+}
+
+.film h3 a {
+	font-size: 60%;
+	vertical-align: top;
+	margin-left: 1em;
+}
+
+.rank-0 { border-color: #CCCCCC; }
+.rank-1 { border-color: #535353; }
+.rank-2 { border-color: #658DB4; }
+.rank-3 { border-color: #BB0011; }
+
+.films button {
+	position: absolute; right: 1em; top: 1em;
+}
+
+.results header {
+	margin-bottom: 2em;	
+}
+
+#tpb h3, #titulkycom h3 {
+	display: inline;	
+}
+
+#titulkycom small {
+	margin-left: 2em;	
 }
 
 footer {
