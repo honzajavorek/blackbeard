@@ -10,3 +10,5 @@ někam na disk a spustíš v prohlížeči. Samozřejmě si ji někam na server 
 - [Stažení v ZIPu](https://github.com/Littlemaple/blackbeard/archives/master)
 - [Hlášení chyb a podnětů](https://github.com/Littlemaple/blackbeard/issues)
 
+![Alt text](https://github.com/Littlemaple/blackbeard/raw/master/static/screenshot.png)
+
