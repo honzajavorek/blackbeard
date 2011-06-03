@@ -58,17 +58,17 @@ h2 {
 	border-bottom: #CCCCCC 1px solid;
 }
 
-.film h3 {
+.video h3 {
 	font-size: 130%;
 }
 
-.film {
+.video {
 	margin-bottom: 1em; padding: 0 5em 0 1em;
 	border-left: #FFF 3px solid;
 	position: relative;
 }
 
-.film h3 a {
+.video h3 a {
 	font-size: 60%;
 	vertical-align: top;
 	margin-left: 1em;
@@ -93,6 +93,15 @@ h2 {
 
 #titulkycom small {
 	margin-left: 2em;	
+}
+
+.settings {
+	padding: 0.5em;
+	font-size: 80%;
+}
+
+.settings input {
+	vertical-align: middle;	
 }
 
 footer {
